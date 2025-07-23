@@ -22,6 +22,6 @@ class NewsletterController extends Controller
 
     public function success()
     {
-        return view('subscribe-success');
+        return view('pages.subscribe-success');
     }
 }
