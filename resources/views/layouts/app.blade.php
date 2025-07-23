@@ -201,8 +201,11 @@
                                 the latest updates!</h4>
                             <p>Subscribe to our newsletters and get the latest business updates.</p>
                             <div class="d-inline-block w-100 newsletter-style-05 position-relative mb-20px">
-                                <form action="https://craftohtml.themezaa.com/email-templates/subscribe-newsletter.php"
+                                <form action="/subscribe" class="newsletter-form form-style-01"
                                     method="post">
+                                    @csrf
+                                        <input class="input-medium w-100 border-radius-4px form-control required mb-15px"
+                                        type="text" name="name" placeholder="Enter your name" />
                                     <input class="input-medium w-100 border-radius-4px form-control required mb-15px"
                                         type="email" name="email" placeholder="Enter your email address" />
                                     <input type="hidden" name="redirect" value="">
