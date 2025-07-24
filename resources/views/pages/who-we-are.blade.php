@@ -61,7 +61,7 @@
             <div class="row align-items-center justify-content-center mb-8 xs-mb-50px">
                 <div class="col-lg-6 col-md-10 position-relative md-mb-50px sm-mb-30px"
                     data-anime='{ "effect": "slide", "direction": "tb", "color": "#252840", "duration": 1000, "delay": 0 }'>
-                    <img class="w-100 border-radius-5px" src="{{ asset('images/demo-startup-who-we-are-01.jpg') }}"
+                    <img class="w-100 border-radius-5px" src="{{ asset('images/demo-startup-who-we-are-0.jpg') }}"
                         alt="Stafhold Care - About Us">
                 </div>
                 <div class="col-xl-4 offset-lg-1 col-lg-5 col-md-10 text-center text-lg-start"
