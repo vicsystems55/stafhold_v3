@@ -201,7 +201,7 @@
                                 the latest updates!</h4>
                             <p>Subscribe to our newsletters and get the latest business updates.</p>
                             <div class="d-inline-block w-100 newsletter-style-05 position-relative mb-20px">
-                                <form action="/subscribe" class="newsletter-form form-style-01"
+                                <form action="/subscribe" class="newsletter-form form-style-0"
                                     method="post">
                                     @csrf
                                         <input class="input-medium w-100 border-radius-4px form-control required mb-15px"

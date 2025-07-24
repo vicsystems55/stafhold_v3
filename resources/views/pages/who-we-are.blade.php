@@ -404,7 +404,7 @@
                         'twitter' => 'https://twitter.com/',
                     ]" />
 
-                <x-team-card image="images/toyin.jpg" name="Emanuel Oluwatoyin" role="Social Media Manager"
+                <x-team-card image="images/toyin.jpg" name="Emmanuel Oluwatoyin" role="Social Media Manager"
                     :socials="[
                         'facebook-f' => 'https://facebook.com/',
                         'instagram' => 'https://instagram.com/',
