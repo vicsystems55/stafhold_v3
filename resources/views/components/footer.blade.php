@@ -45,7 +45,7 @@
                     <a href="mailto:info@stafholdgroup.com"
                         class="text-white d-block mb-10px">info@stafholdgroup.com</a>
                     <span>Call:</span>
-                    <a href="tel:+441234567890" class="text-white d-block">+44 1234 567890</a>
+                    <a href="tel:+441234567890" class="text-white d-block">+07 44 510 7434</a>
                 </div>
 
                 <!-- Newsletter -->
