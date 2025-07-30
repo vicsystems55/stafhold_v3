@@ -236,60 +236,59 @@
                 </div>
             </div>
 
-            <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 justify-content-center"
-                data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 100, "staggervalue": 200, "easing": "easeOutQuad" }'>
+       <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 justify-content-center"
+    data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 100, "staggervalue": 200, "easing": "easeOutQuad" }'>
 
-                <!-- Service Card 1 -->
-                @include('components.service-card', [
-                    'image' => 'images/services/decontamination.jpg',
-                    'tag' => 'Healthcare',
-                    'title' => 'Decontamination Services',
-                    'description' => 'Ensuring sterile environments across hospitals and laboratories.',
-                ])
+    <!-- Service Card 1 -->
+    @include('components.service-card', [
+        'image' => 'images/services/decontamination.jpg',
+        'tag' => 'Healthcare',
+        'title' => 'Decontamination Services',
+        'description' => 'Ensuring sterile environments across hospitals and laboratories.',
+    ])
 
-                <!-- Service Card 2 -->
-                @include('components.service-card', [
-                    'image' => 'images/services/training.jpg',
-                    'tag' => 'Training',
-                    'title' => 'Sterile Technician Training',
-                    'description' => 'Hands-on NHS-oriented crash courses and workshops.',
-                ])
+    <!-- Service Card 2 -->
+    @include('components.service-card', [
+        'image' => 'images/services/training.jpg',
+        'tag' => 'Training',
+        'title' => 'Sterile Technician Training',
+        'description' => 'Hands-on NHS-oriented crash courses and workshops.',
+    ])
 
-                <!-- Service Card 3 -->
-                @include('components.service-card', [
-                    'image' => 'images/services/consultancy.jpg',
-                    'tag' => 'Consultancy',
-                    'title' => 'Healthcare Consultancy',
-                    'description' =>
-                        'Personalized training and compliance guidance for professionals and institutions.',
-                ])
+    <!-- Service Card 3 - Combined Consultancy + Home Care -->
+    @include('components.service-card', [
+        'image' => 'images/services/homecare.jpg',
+        'tag' => 'Care & Consultancy',
+        'title' => 'Healthcare & Home Care Support',
+        'description' => ' Consultancy for healthcare institutions along with compassionate in-home support.',
+    ])
 
-                <!-- Service Card 4 -->
-                @include('components.service-card', [
-                    'image' => 'images/services/validation.jpg',
-                    'tag' => 'Validation',
-                    'title' => 'Equipment Validation',
-                    'description' => 'We certify, authorize, and validate sterilization and healthcare equipment.',
-                ])
+    <!-- Service Card 4 -->
+    @include('components.service-card', [
+        'image' => 'images/services/validation.jpg',
+        'tag' => 'Validation',
+        'title' => 'Equipment Validation',
+        'description' => 'We certify, authorize, and validate sterilization and healthcare equipment.',
+    ])
 
-                <!-- Service Card 5 -->
-                @include('components.service-card', [
-                    'image' => 'images/services/cargo.jpg',
-                    'tag' => 'Logistics',
-                    'title' => 'Cargo Services',
-                    'description' => 'Domestic and international logistics solutions tailored for general goods.',
-                ])
+    <!-- Service Card 5 -->
+    @include('components.service-card', [
+        'image' => 'images/services/cargo.jpg',
+        'tag' => 'Logistics',
+        'title' => 'Cargo Services',
+        'description' => 'Domestic and international logistics solutions tailored for general goods.',
+    ])
 
-                <!-- Service Card 6 -->
-                @include('components.service-card', [
-                    'image' => 'images/services/homecare.jpg',
-                    'tag' => 'Care',
-                    'title' => 'Home Care Services',
-                    'description' =>
-                        'Supportive and compassionate domiciliary care for the elderly and vulnerable.',
-                ])
+    <!-- Service Card 6 - New Cleaning Services -->
+    @include('components.service-card', [
+        'image' => 'images/services/cleaning.jpg',
+        'tag' => 'Cleaning',
+        'title' => 'Professional Cleaning Services',
+        'description' => 'Expert commercial and residential cleaning for hygienic and safe environments.',
+    ])
 
-            </div>
+</div>
+
         </div>
     </section>
     <!-- end section -->

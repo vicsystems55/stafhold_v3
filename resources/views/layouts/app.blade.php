@@ -60,7 +60,7 @@
                 <!-- Logo -->
                 <div class="col-auto col-lg-2 me-lg-0 me-auto">
                     <a class="navbar-brand" href="{{ route('home') }}">
-                        <img src="{{ asset('images/logo.png') }}" alt="Stafhold Group" class="default-logo" />
+                        <img  src="{{ asset('images/logo.png') }}" alt="Stafhold Group" class="default-logo" />
                     </a>
                 </div>
 
@@ -109,7 +109,7 @@
                 </div>
 
                 <!-- Right Icons -->
-                 <div class="col-auto col-lg-2 text-end md-pe-0">
+                <div class="col-auto col-lg-2 text-end md-pe-0">
                     <div class="header-icon">
                         <div class="header-search-icon icon">
                             <a href="#" class="search-form-icon header-search-form"><i
@@ -123,8 +123,8 @@
                                         <h2 class="text-dark-gray fw-700 ls-minus-1px text-center mb-4 alt-font">What
                                             are you looking for?</h2>
                                         <input class="search-input alt-font" id="search-form-input5e219ef164995"
-                                            placeholder="Enter your keywords..." name="s" value="" type="text"
-                                            autocomplete="off">
+                                            placeholder="Enter your keywords..." name="s" value=""
+                                            type="text" autocomplete="off">
                                         <button type="submit" class="search-button">
                                             <i class="feather icon-feather-search" aria-hidden="true"></i>
                                         </button>
@@ -172,10 +172,23 @@
                 </div>
                 <div class="push-menu-social">
                     <ul class="social-icon-style">
-                        <li><a href="https://facebook.com" target="_blank">Fb.</a></li>
-                        <li><a href="https://twitter.com" target="_blank">Tw.</a></li>
-                        <li><a href="https://instagram.com" target="_blank">Ig.</a></li>
+                        <li>
+                            <a href="https://facebook.com" target="_blank">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com" target="_blank">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
                     </ul>
+
                     <p class="fs-14 mt-3">&copy; {{ now()->year }} <a href="{{ url('/') }}">Stafhold
                             Group</a></p>
                 </div>
@@ -189,7 +202,7 @@
     @yield('content')
 
     <!-- start subscription popup -->
-    <div id="subscribe-popup" class="mfp-hide subscribe-popup">
+    <div id="subscribe-popu" class="mfp-hide subscribe-popup">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-9 col-md-10 bg-white">
@@ -201,10 +214,9 @@
                                 the latest updates!</h4>
                             <p>Subscribe to our newsletters and get the latest business updates.</p>
                             <div class="d-inline-block w-100 newsletter-style-05 position-relative mb-20px">
-                                <form action="/subscribe" class="newsletter-form form-style-0"
-                                    method="post">
+                                <form action="/subscribe" class="newsletter-form form-style-0" method="post">
                                     @csrf
-                                        <input class="input-medium w-100 border-radius-4px form-control required mb-15px"
+                                    <input class="input-medium w-100 border-radius-4px form-control required mb-15px"
                                         type="text" name="name" placeholder="Enter your name" />
                                     <input class="input-medium w-100 border-radius-4px form-control required mb-15px"
                                         type="email" name="email" placeholder="Enter your email address" />
@@ -228,7 +240,7 @@
         </div>
     </div>
     <!-- end subscription popup -->
-@include('components.footer ')
+    @include('components.footer ')
 
 
     <!-- start scroll progress -->

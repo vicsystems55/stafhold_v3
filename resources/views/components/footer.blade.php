@@ -2,15 +2,15 @@
     <footer class="footer-dark bg-slate-blue p-0">
         <div class="d-none d-md-flex">
             <div class="overlap-section-one-fourth animation-float">
-                <img alt="Decorative" src="images/demo-startup-bg-01.png">
+                {{-- <img  alt="Decorative" src="images/logo2.png"> --}}
             </div>
         </div>
         <div class="container">
             <div class="row justify-content-center pt-4 lg-pt-2 sm-pt-45px">
                 <!-- Branding Column - Now wider -->
-                <div class="col-12 col-xl-4 col-lg-4 col-sm-6 text-xl-start text-lg-start lg-mb-50px sm-mb-35px">
-                    <a href="/" class="footer-logo mb-20px d-inline-block" aria-label="Stafhold Logo">
-                        <img src="images/stafhold-logo-white.png" alt="Stafhold Group Logo">
+                <div class="col-12 col-xl-4 col-lg-4 col-sm-6 text-xl-start text-lg-start lg-mb-50px sm-mb-35px bg-">
+                    <a href="/" class="footer-logo mb-20px d-inline-block bg-blac " aria-label="Stafhold Logo">
+                        <img  src="images/logo.png" alt="Stafhold Group Logo">
                     </a>
                     <p class="w-90">Stafhold Group is a UK-based agency delivering recruitment, staffing, and home
                         care services with professionalism and compassion.</p>
@@ -45,7 +45,8 @@
                     <a href="mailto:info@stafholdgroup.com"
                         class="text-white d-block mb-10px">info@stafholdgroup.com</a>
                     <span>Call:</span>
-                    <a href="tel:+441234567890" class="text-white d-block">+07 44 510 7434</a>
+                    <a href="tel:+447445107434" class="text-white d-block">+44 7445 107434</a>
+
                 </div>
 
                 <!-- Newsletter -->
