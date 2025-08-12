@@ -44,6 +44,8 @@
     <link rel="stylesheet" href="{{ asset('css/responsive.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('demos/startup/startup.css') }}" />
 
+  
+
 
     {{-- Page-specific styles (optional) --}}
     @stack('styles')
@@ -59,8 +61,8 @@
             <div class="container-fluid">
                 <!-- Logo -->
                 <div class="col-auto col-lg-2 me-lg-0 me-auto">
-                    <a class="navbar-brand" href="{{ route('home') }}">
-                        <img  src="{{ asset('images/logo.png') }}" alt="Stafhold Group" class="default-logo" />
+                    <a class="navbar-brand" style="height: 100px;" href="{{ route('home') }}">
+                        <img style="height: 120px;" src="{{ asset('images/logo.png') }}" alt="Stafhold Group" class="default-logo" />
                     </a>
                 </div>
 
