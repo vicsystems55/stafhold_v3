@@ -23,10 +23,8 @@
     <meta property="og:type" content="website">
 
     <!-- Favicon & Apple Icons -->
-    <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}">
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('images/apple-touch-icon-57x57.png') }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('images/apple-touch-icon-72x72.png') }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('images/apple-touch-icon-114x114.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.png') }}">
+
 
     <!-- Fonts Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
@@ -42,7 +40,7 @@
     <!-- Canonical -->
     <link rel="canonical" href="{{ url()->current() }}">
 
-    
+
 </head>
 
 

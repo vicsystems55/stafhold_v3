@@ -28,10 +28,8 @@
     <meta name="twitter:image" content="{{ $seoImage ?? asset('images/default-seo.jpg') }}">
 
     {{-- Favicon and Icons --}}
-    <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}">
-    <link rel="apple-touch-icon" href="{{ asset('images/apple-touch-icon-57x57.png') }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('images/apple-touch-icon-72x72.png') }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('images/apple-touch-icon-114x114.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.png') }}">
+
 
     {{-- Google Fonts Preconnect --}}
     <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
@@ -44,7 +42,7 @@
     <link rel="stylesheet" href="{{ asset('css/responsive.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('demos/startup/startup.css') }}" />
 
-  
+
 
 
     {{-- Page-specific styles (optional) --}}
