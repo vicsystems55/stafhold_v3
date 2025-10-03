@@ -139,9 +139,22 @@
             <div class="row row-cols-md-1 justify-content-center">
                 <div class="col-xl-9 overflow-hidden">
                     <!-- start contact form -->
-                    <form action="/" method="post"
-                        class="row contact-form-style-02"
+                    <form action="{{ route('contact.submit') }}" method="post"
+                        class="row contact-form-style-0"
                         data-anime='{ "translateX": [0, 0], "opacity": [0,1], "duration": 600, "delay": 250, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        @csrf
+
+                        @if(session('success'))
+                            <div class="col-12">
+                                <div class="alert alert-success">{{ session('success') }}</div>
+                            </div>
+                        @endif
+
+                        @if(session('error'))
+                            <div class="col-12">
+                                <div class="alert alert-danger">{{ session('error') }}</div>
+                            </div>
+                        @endif
                         <div class="col-md-6 mb-30px">
                             <input class="input-name form-control required" type="text" name="name"
                                 placeholder="Your name*" />
@@ -158,14 +171,14 @@
                         </div>
                         <div class="col-md-12 mb-30px">
                             <textarea class="form-control" cols="40" rows="4" name="comment"
-                                placeholder="Your message"></textarea>
+                                placeholder="Your message">{{ old('comment') }}</textarea>
                         </div>
                         <div class="col-xl-6 col-md-7 last-paragraph-no-margin">
                             <p class="text-center text-md-start fs-15 lh-28">We are committed to protecting your
                                 privacy. We will never collect information about you without your explicit consent.</p>
                         </div>
                         <div class="col-xl-6 col-md-5 text-center text-md-end sm-mt-20px">
-                            <input type="hidden" name="redirect" value="">
+
                             <button class="btn btn-gradient-emerald-blue-emerald-green btn-small btn-round-edge submit"
                                 type="submit">Send message</button>
                         </div>
